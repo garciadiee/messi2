@@ -1,0 +1,69 @@
+#chat-container {
+  float: inline-start;
+    width: 300px;
+    height: 150px;
+    z-index: 10;
+    background-color: rgba(202, 198, 237, 0.415); /* Optional background */
+    margin: 10px;
+  max-width: 550px;
+  font: 15px arial, sans-serif;
+  border-style: solid;
+  border-color: rgba(44, 13, 73, 0.163);
+  border-width: 3px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 15px;
+  }
+  #chatButton{
+    background-color: rgba(200, 195, 189, 0.600);
+    border-radius: 12px;
+    border: none;
+    width: 80px;
+    height: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-left: 210px;
+
+  }
+
+  #chatInput{
+    background-color: rgba(200, 195, 189, 0.600);
+    border-radius: 12px;
+    border: none;
+    height: 25px;
+    width: 200px;
+    
+  }
+
+  #messages{
+    background-color: rgba(200, 195, 189, 0.4); /* Optional background */
+    border-radius: 12px;
+    border: none;
+    padding: 5px;
+    width: 80%;
+    height: 60%;
+  }
+
+  #user-name{
+  background-color: rgba(200, 195, 189, 0.4); /* Optional background */
+  height: 90px;
+  font: 15px arial, sans-serif;
+  border-style: solid;
+  border-color: rgba(44, 13, 73, 0.163);
+  border-width: 3px;
+  border-radius: 15px;
+  padding: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  #name{
+  border: none;
+  background-color: rgba(200, 195, 189, 0.600); /* Optional background */
+  max-width: 550px;
+  font: 15px;
+  border-radius: 20px;
+  height: 30px;
+  margin-top: -5px;
+  }
